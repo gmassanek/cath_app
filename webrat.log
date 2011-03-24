@@ -1,0 +1,209 @@
+# Logfile created on Mon Mar 21 23:31:06 -0400 2011 by logger.rb/22285
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET admin_dashboard with {} and HTTP headers {"HTTP_REFERER"=>"/admin/dashboard"}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"/admin/dashboard"}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"/admin/dashboard"}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"/admin/dashboard"}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"/admin/dashboard"}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"/admin/dashboard"}
+REQUESTING PAGE: GET /admin/dashboard with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"catherinecsmith09@gmail.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password1", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: POST /login with {"commit"=>"Login", "utf8"=>"✓", "password"=>"password", "email"=>"test@test.com"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/login"}

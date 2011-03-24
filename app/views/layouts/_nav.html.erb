@@ -1,0 +1,11 @@
+<nav>
+  <ul>
+    <li><%= link_to "home", root_path %></li>
+    <li><%= link_to "about", about_path %></li>
+    <% Gallery.all.each do |gallery| %>
+      <li><%= link_to gallery.title, gallery_path(gallery) %></li>
+    <% end %>
+    <li><%= link_to "content", contact_path %></li>
+  </ul>
+</nav>
+

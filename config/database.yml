@@ -1,0 +1,22 @@
+common: &common
+  adapter: postgresql
+  username: geoff
+  password: mass2742 # from psql setup, see Postgresql
+
+development:
+  adapter: postgresql
+  username: geoff
+  database: cath_dev
+
+test: &test
+  <<: *common
+  database: cath_test
+
+production:
+  <<: *common
+  database: martha_prod
+
+
+cucumber:
+  <<: *test
+

@@ -1,0 +1,37 @@
+<div class="content_box">
+  <% home_image = image_tag 'homeImage2.jpeg', :alt => "Visit Galery" %>
+  <%= link_to home_image, about_path %>
+</div>
+<div class="box_wrapper">
+  <div class="box">
+    <%= image_tag 'about.png', :alt => "about" %>
+    <div class="about">
+      <p>
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+        content here', making it look like readable English. <%= link_to "Read More &raquo;".html_safe, about_path, :escape => false %>
+      </p>
+    </div>
+  </div>
+  <div class="box">
+    <%= image_tag 'news.png', :alt => "news" %>
+    <ul class="latest">
+      <li><a href="#">There are many variations of passages of Lorem Ipsum available</a></li>
+      <li><a href="#">It is a long established fact that a reader</a> </li>
+      <li><a href="#">The standard chunk of Lorem Ipsum used since the 1500s</a></li>
+      <li><a href="#">Sed ut perspiciatis unde omnis iste natus error</a> </li>
+    </ul>
+  </div>
+  <div class="box2">
+    <strong>Find me on:</strong>
+    <% facebook_image = image_tag 'facebook.png', :alt => "Facebook" %>
+    <%= link_to facebook_image, 'http://www.facebook.com' %>
+
+    <% twitter_image = image_tag 'twitter.png', :alt => "Twitter" %>
+    <%= link_to twitter_image, 'http://twitter.com/#!/CatherineCSmith' %>
+
+    <% linkedin_image = image_tag 'linkedin.png', :alt => "Linked In" %>
+    <%= link_to linkedin_image, 'http://www.linkedin.com' %>
+  </div>
+</div>
+
