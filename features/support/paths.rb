@@ -11,7 +11,7 @@ module NavigationHelpers
     when /the home\s?page/
       '/'
     when /admin_dashboard/
-      '/admin/dashboard'
+      '/admin'
     when /login/
       '/login'
     when /logout/

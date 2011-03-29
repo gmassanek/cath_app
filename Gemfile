@@ -8,6 +8,8 @@ gem 'rails', '3.0.5'
 gem 'pg'
 gem 'annotate-models', '1.0.4'
 gem 'friendly_id', '~> 3.1'
+gem 'factory_girl_rails'
+gem 'paperclip'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -37,5 +39,8 @@ group :development, :test do
   gem "spork"
   gem "launchy"
   gem "pickle"
+  gem "autotest"
+  gem "autotest-rails"
+
 end
 

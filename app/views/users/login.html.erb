@@ -1,21 +1,24 @@
-<h3>User Login</h3>
 
-<% flash.each do |key, value| %>
-  <div  id="error_explanation">
-    <ul>
-      <li><%= value %></li>
-    </ul>
-  </div>
-<% end %>
+<div class="content_box">
+  <h2>User Login</h2>
 
+  <% flash.each do |key, value| %>
+    <div  class="error_explanation">
+      <ul>
+        <li><%= value %></li>
+      </ul>
+    </div>
+  <% end %>
+  <%= form_tag :action => "login" do %>
+    <%= label_tag(:email, "Email: ") %>
+    <%= text_field_tag(:email, params[:email], :size => '30', :class => 'input') %>
+    <br/>
+    <br/>
+    <%= label_tag(:password, "Password: ") %>
+    <%= password_field_tag(:password,params[:password], :class => 'input') %>
+    <br/>
+    <%= submit_tag("Login", :class => 'submit') %>
+  <% end %>
 
-<%= form_tag :action => "login" do %>
-  <%= label_tag(:email, "Email: ") %>
-  <%= text_field_tag(:email, params[:email]) %>
-  <br/>
-  <%= label_tag(:password, "Password: ") %>
-  <%= password_field_tag(:password) %>
-  <br/>
-  <%= submit_tag("Login") %>
-<% end %>
+</div>
 

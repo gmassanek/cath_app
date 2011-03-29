@@ -1,9 +1,16 @@
-<h1>Admin#dashboard</h1>
-<p>Find me in app/views/admin/dashboard.html.erb</p>
+<div class="content_box" style="padding:15px 10px;">
+  <h2>Welcome <span><%= current_user.email %></span></h2>
+</div>
 
-<% flash.each do |key, value| %>
-  <div  id="error_explanation">
-    <%= value %>
+<div class="box_wrapper">
+  <div class="box">
+    <header>
+      <h2>Users</h2>
+    </header>
+    <section>
+      <%= link_to "Manage Users", users_path %>
+    </section>
   </div>
-<% end %>
+
+</div>
 

@@ -1,0 +1,43 @@
+
+<div  class="content_box">
+
+
+    <h1>Listing images</h1>
+
+    <section>
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>File name</th>
+      <th>Content type</th>
+      <th>File size</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+
+  <% @images.each do |image| %>
+    <tr>
+      <td><%= image.title %></td>
+      <td><%= image.description %></td>
+      <td><%= image.photo_file_name %></td>
+      <td><%= image.photo_content_type %></td>
+      <td><%= image.photo_file_size %></td>
+      <td> <%= image_tag image.photo.url(:thumb) %></td>
+      <td><%= image_tag image.photo.url(:small) %></td>
+      <td><%= image_tag image.photo.url(:large) %></td>
+      <td><%= link_to 'Show', piece_image_path(@piece, image) %></td>
+      <td><%= link_to 'Edit', edit_piece_image_path(@piece, image) %></td>
+      <td><%= link_to 'Destroy',  piece_image_path(@piece, image), :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+  </table>
+
+  <br />
+
+  <%= link_to 'New Image', new_piece_image_path %>
+
+    </section>
+</div>
+

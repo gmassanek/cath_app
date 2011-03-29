@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <%= stylesheet_link_tag :all %>
-    <%= javascript_include_tag 'style' %>
+    <%= stylesheet_link_tag 'style' %>
+    <%= javascript_include_tag 'image' %>
     <%= csrf_meta_tag %>
     <title>Catherine Clark Smith</title>
     <!--[if lt IE 9]><script src="../j/html5.js"></script><![endif]-->
   </head>
   <body>
     <%= render :partial => "layouts/header" %>
-    <div>
+    <div id="wrap">
       <div id="content">
         <%= yield %>
       </div>
     </div>
     <%= render :partial => "layouts/footer" %>
-    <%= debug(params) if Rails.env.development? %>
+    <!-- #<%= debug(params) if Rails.env.development? %> -->
   </body>
 </html>
 

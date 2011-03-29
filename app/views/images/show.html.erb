@@ -1,0 +1,25 @@
+
+<div  class="content_box">
+
+  <p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @image.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @image.description %>
+</p>
+
+<p>
+  <b>Small:</b>
+  <%= image_tag @image.photo.url(:small) %>
+</p>
+
+
+<%= link_to 'Edit', edit_piece_image_path(@piece,@image) %> |
+<%= link_to 'Back', piece_images_path(@piece) %>
+</div>
+

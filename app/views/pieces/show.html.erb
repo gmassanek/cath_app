@@ -1,0 +1,30 @@
+<div class="content_box">
+  <h2><span><%= link_to @gallery.title, my_gallery_path(@gallery) %></span></h2>
+  <%= @gallery.description %>
+  <br/>
+  <table align="center" margin="5px">
+    <tr>
+      <td width="120px" valign="top" align="center">
+        <%= render :partial => "pieces/thumbnails", :locals => {:images => @piece.images}%>
+      </td>
+      <td width="500px">
+        <%= image_tag @piece.images.first.photo.url(:large), :id=>"main_image"%>
+      </td>
+    </tr>
+  </table>
+</div>
+<br/>
+<div class="content_box">
+  <% if @gallery.pieces.length > 0 %>
+    <table align="center">
+      <tr>
+        <% @gallery.pieces.each do |piece| %>
+          <td>
+            <%= render :partial => "galleries/piece", :locals => {:piece => piece} %>
+          </td>
+        <% end %>
+      <tr>
+    </table>
+  <% end %>
+</div>
+

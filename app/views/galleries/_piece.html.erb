@@ -1,0 +1,12 @@
+<% unless piece.images.first.nil? %>
+<% img=image_tag piece.images.first.photo.url(:small) %>
+  <table>
+    <tr>
+        <td><%= link_to img, gallery_piece_path(Gallery.find(piece.gallery_id).title, piece)%></td>
+    </tr>
+    <tr>
+        <td align="center"><%= piece.title %></td>
+    </tr>
+  </table>
+<% end %>
+

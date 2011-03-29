@@ -1,15 +1,21 @@
-<p id="notice"><%= notice %></p>
+<div class="content_box">
+  <h2><span><%= link_to @gallery.title, my_gallery_path(@gallery) %></span></h2>
 
-<p>
-  <b>Title:</b>
-  <%= @gallery.title %>
-</p>
-
-<p>
-  <b>Description:</b>
   <%= @gallery.description %>
-</p>
+</div>
+<br/>
+<div class="content_box">
+  <% if @gallery.pieces.length > 0 %>
+    <table>
+      <tr>
+        <% @gallery.pieces.each do |piece| %>
+          <td>
+            <%= render :partial => "galleries/piece", :locals => {:piece => piece} %>
+          </td>
+        <% end %>
+      <tr>
+    </table>
+  <% end %>
 
+</div>
 
-<%= link_to 'Edit', edit_gallery_path(@gallery) %> |
-<%= link_to 'Back', galleries_path %>

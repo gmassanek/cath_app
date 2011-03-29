@@ -1,13 +1,18 @@
 CathApp::Application.routes.draw do
   resources :galleries
-
-  get "admin/dashboard"
+  resources :pieces do
+    resources :images
+  end
   resources :users
+
   match '/login', :to => 'users#login'
   match '/logout', :to => 'users#logout'
   match '/home', :to => 'pages#home'
   match '/about', :to => 'pages#about'
   match '/contact', :to => 'pages#contact'
+  match '/admin', :to => 'admin#dashboard'
+  match '/:id', :to => 'galleries#show', :as => 'my_gallery'
+  match '/:gallery_id/:id', :to => 'pieces#show', :as => 'gallery_piece'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

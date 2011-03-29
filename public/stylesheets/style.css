@@ -75,7 +75,7 @@ header ul li a:hover {
 
 #wrap {
     width:100%;
-    background:url(../images/bg.png) repeat;
+/*    background:url(../images/bg.png) repeat;*/
     border-top:1px solid #eaeaea;
     border-bottom:1px solid #eaeaea;
     padding:14px 0px;
@@ -104,6 +104,26 @@ header ul li a:hover {
     height:196px;
     overflow:hidden;
     margin:0px 18px 0px 0px;
+}
+
+/*custom*/
+#content .box_wrapper .box header {
+    width: 309px;
+    height: 35px;
+    background:url(../images/box_header.png);
+}
+
+#content .box_wrapper .box header h2{
+    padding: 7px;
+}
+
+#content .box_wrapper .box section{
+    height:186px;
+    width: 309px;
+    padding:0px 10px 10px 10px;
+    margin:0px 0px 0px 0px;
+    background-color:#fff;
+    float:left;
 }
 
 #content .box_wrapper .box img {
@@ -279,5 +299,54 @@ footer a:hover {
 #content .content_box .list li a:hover {
     text-decoration:none;
     color:#333;
+}
+
+/*====================== custom ===============*/
+#content .content_box form .input {
+    font-size: 16px;
+    font-weight: lighter;
+    border: 2px solid #DDDDDD;
+    height: 24px;
+    padding-left: 5px;
+}
+#content .content_box form .submit {
+    margin:5px 5px 5px 5px;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: lighter;
+    margin:14px 14px 14px 44px;
+}
+
+
+#content .content_box form label {
+  width: 60px;
+  font-size:12px;
+  float: left;
+  text-align: right;
+  line-height: 2;
+  margin-right: 0.5em;
+  display: block
+}
+
+#content .content_box img {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  display: block;
+}
+
+#content .content_box .img {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  display: inline;
+}
+
+
+#content .error_explanation {
+    text-decoration:none;
+    color:#a8082a;
+    font-size: 12px;
+    margin:14px 14px 14px 14px;
 }
 

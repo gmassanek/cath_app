@@ -1,0 +1,13 @@
+<table valign="top" align="center" margin="5px" padding="5px">
+<% images.each_slice(2) do |slice| %>
+  <tr>
+    <% slice.each do |image| %>
+      <td>
+        <% large_loc = image.photo.url(:large) %>
+        <%= image_tag image.photo.url(:thumb), :onmouseover=>"document.getElementById('main_image').src = '#{large_loc}';"%>
+      </td>
+    <% end %>
+  </tr>
+<% end %>
+</table>
+

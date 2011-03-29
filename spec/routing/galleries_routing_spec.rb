@@ -33,3 +33,4 @@ describe GalleriesController do
 
   end
 end
+

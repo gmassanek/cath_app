@@ -18,3 +18,7 @@ Then /^I should see what is up$/ do
   save_and_open_page
 end
 
+Given /^I am logged out$/ do
+  When %{I log out}
+end
+
