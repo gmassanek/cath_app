@@ -7,8 +7,6 @@
     <section>
   <table>
     <tr>
-      <th>Title</th>
-      <th>Description</th>
       <th>File name</th>
       <th>Content type</th>
       <th>File size</th>
@@ -19,8 +17,6 @@
 
   <% @images.each do |image| %>
     <tr>
-      <td><%= image.title %></td>
-      <td><%= image.description %></td>
       <td><%= image.photo_file_name %></td>
       <td><%= image.photo_content_type %></td>
       <td><%= image.photo_file_size %></td>

@@ -18,5 +18,10 @@ class Piece < ActiveRecord::Base
   has_friendly_id :title, :use_slug => true
   validates :title, :uniqueness => true
   validates :gallery_id, :presence => true
+
+  def image
+    #first of images, shuffled = random image (or nil if none)
+    images.shuffle.first
+  end
 end
 

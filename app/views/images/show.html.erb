@@ -4,22 +4,26 @@
   <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Title:</b>
-  <%= @image.title %>
+  <b>Piece:</b>
+  <%= @image.piece.title %>
 </p>
-
 <p>
-  <b>Description:</b>
-  <%= @image.description %>
-</p>
-
-<p>
+  <b>Thumbnail:</b>
+  <%= image_tag @image.photo.url(:thumb), :style =>"display:inline" %>
+&nbsp;&nbsp;
   <b>Small:</b>
-  <%= image_tag @image.photo.url(:small) %>
+  <%= image_tag @image.photo.url(:small), :style =>"display:inline" %>
+</p>
+<p>
+  <b>Large:</b>
+  <%= image_tag @image.photo.url(:large), :style =>"display:inline" %>
 </p>
 
 
 <%= link_to 'Edit', edit_piece_image_path(@piece,@image) %> |
 <%= link_to 'Back', piece_images_path(@piece) %>
+<br/>
+<br/>
+<%= button_to 'Destroy',  piece_image_path(@piece, @image), :method => :delete %>
 </div>
 

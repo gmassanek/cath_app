@@ -12,21 +12,12 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.label :piece_id %>
+    <%= f.select :piece_id, Piece.all.map {|p| [p.title, p.id]}, :selected => @piece.id %>
   </div>
   <div class="field">
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </div>
-  <div class="field">
-    <%= f.label :piece_id %><br />
-    <% pieces = Piece.all %>
-    <%= f.collection_select :piece_id, pieces, :id, :title %>
-  </div>
-  <div class="field">
-    <%= f.label 'Photo' %><br />
-    <%= f.file_field :photo %>
+    <%= f.label 'Photo' %>
+    <%= f.file_field :photo, :accept => 'text/html' %>
   </div>
   <div class="actions">
     <%= f.submit %>

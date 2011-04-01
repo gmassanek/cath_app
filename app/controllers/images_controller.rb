@@ -65,12 +65,16 @@ class ImagesController < ApplicationController
   end
 
   def destroy
-    @image = Image.find(params[:id])
-    @image.destroy
+    puts "================================== DESTROYER "
+    if @image = Image.find(params[:id])
+      piece_id = @image.piece_id
+      #@image.photo.nil
+      @image.destroy
 
-    respond_to do |format|
-      format.html { redirect_to(images_url) }
-      format.xml  { head :ok }
+      respond_to do |format|
+        format.html { redirect_to(piece_images_path(piece_id)) }
+        format.xml  { head :ok }
+      end
     end
   end
 end

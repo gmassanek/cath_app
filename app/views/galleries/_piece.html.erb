@@ -1,5 +1,5 @@
-<% unless piece.images.first.nil? %>
-<% img=image_tag piece.images.first.photo.url(:small) %>
+<% if !piece.image.nil? %>
+  <% img=image_tag piece.images.first.photo.url(:small) %>
   <table>
     <tr>
         <td><%= link_to img, gallery_piece_path(Gallery.find(piece.gallery_id).title, piece)%></td>
@@ -7,6 +7,25 @@
     <tr>
         <td align="center"><%= piece.title %></td>
     </tr>
+    <% if logged_in %>
+    <tr>
+        <td align="center"><%= link_to "Edit #{piece.title}", edit_piece_path(piece) %></td>
+    </tr>
+    <% end %>
   </table>
+<%elsif logged_in%>
+  <p><%= link_to "#{piece.title}", edit_piece_path(piece)  %> has been added but has no images. <%= link_to "Add images", new_piece_image_path(piece) %></p>
 <% end %>
+
+<!--
+if logged_in and no image
+  button to pieces_new (for that gallery)
+elsif logged_in and image
+  show images
+  button to edit that piece
+else
+  ...
+  just have has_image and
+  has_admin
+  -->
 
